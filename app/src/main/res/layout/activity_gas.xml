@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btrn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GasActivity">
+
+    <TextView
+        android:id="@+id/txtGasTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:text="@string/title_gas" />
+
+    <TextView
+        android:id="@+id/txtExp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGasTitle"
+        android:text="@string/exp_gas" />
+
+    <EditText
+        android:id="@+id/numGasCap"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/txtGasCap"
+        android:layout_toRightOf="@id/txtGasCap"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtGasCap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtExp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:text="@string/gas_capacity" />
+
+    <Button
+        android:id="@+id/btnMain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_main" />
+
+    <TextView
+        android:id="@+id/txtMiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtExp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/numGasCap"
+        android:text="@string/gas_miles" />
+
+    <EditText
+        android:id="@+id/numMiles"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/txtMiles"
+        android:layout_toRightOf="@id/txtMiles"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalcGas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtGasCap"
+        android:text="Button" />
+    <TextView
+        android:id="@+id/txtMPG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalcGas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:text="@string/txt_mpg" />
+
+    <RatingBar
+        android:id="@+id/ratingMpg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMPG"
+        android:layout_marginTop="-15dp"
+        android:layout_toRightOf="@id/txtMPG"
+        android:numStars="3" />
+
+</RelativeLayout>

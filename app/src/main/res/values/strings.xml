@@ -1,0 +1,23 @@
+<resources>
+    <string name="place_holder">PlaceHolder</string>
+    <string name="app_name">Utility Calculator</string>
+    <string name="btn_gas">Gas Calculator</string>
+    <string name="btn_temp">Tempature Conversion</string>
+    <string name="btn_tip">Tip Calculator</string>
+    <string name="btn_main">Main</string>
+    <string name="title_gas">Gas Calculator</string>
+    <string name="title_temp">Tempature Conversion</string>
+    <string name="title_tip">Tip Calculator</string>
+    <string name="exp_gas">Insert Explination Here</string>
+    <string name="gas_capacity">Gas Tank Capacity: </string>
+    <string name="gas_miles">Gas Tank Miles: </string>
+    <string name="txt_mpg">Miles Per Gallon: </string>
+    <string name="txt_bill_amt">Bill Amount</string>
+    <string name="txt_pick_tip">Pick Tip</string>
+    <string name="txt_tip_amt">Tip Amount</string>
+    <string name="exp_temp">Insert Explination Here</string>
+    <string name="txt_con_temp">The Temperature is: </string>
+    <string name="radio_c">Celsius</string>
+    <string name="radio_f">Fahrenheit</string>
+    <string name="btn_calc_temp">Convert</string>
+</resources>

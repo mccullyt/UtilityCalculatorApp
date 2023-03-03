@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="4">
+
+    <TextView
+        android:id="@+id/txtTipTitle"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/title_tip" />
+    <TextView
+        android:id="@+id/txtBillAmt"
+        android:text="@string/txt_bill_amt"
+        android:layout_column="0"
+        android:layout_row="1"/>
+    <EditText
+        android:id = "@+id/numBillAmt"
+        android:layout_gravity="fill_horizontal"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_columnSpan="3"/>
+    <TextView
+        android:id="@+id/txtPickTip"
+        android:text="@string/txt_pick_tip"
+        android:layout_column="0"
+        android:layout_row="2"
+        />
+    <Button
+        android:id="@+id/btnTip10"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:text="10" />
+    <Button
+        android:id="@+id/btnTip15"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="15" />
+    <Button
+        android:id="@+id/btnTip20"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:text="20"/>
+
+    <TextView
+        android:id="@+id/txtTipAmt"
+        android:text="@string/txt_tip_amt" />
+    <TextView
+        android:id="@+id/txtTip"
+        android:text="@string/txt_tip_amt"
+        android:layout_gravity="fill_horizontal"/>
+
+
+    <Button
+        android:id="@+id/btnMain1"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:text="@string/btn_main" />
+</GridLayout>
